@@ -1,0 +1,11 @@
+Question,Answer1,Answer2,Answer3,Answer4,CorrectAnswer
+"What is the main purpose of Java's `final` keyword?", "To define a constant", "To define a method that cannot be overridden", "To prevent inheritance", "All of the above", 3
+"Which Java class is used for reading from a file?", "FileWriter", "FileReader", "BufferedReader", "Scanner", 1
+"Which of the following is a feature of RMI?", "Remote invocation of methods", "Database access", "File system management", "Exception handling", 0
+"Which of the following is used to compile a Java program?", "javac", "java", "javadoc", "jar", 0
+"Which Java class is used to perform basic input/output operations?", "I/O", "File", "Scanner", "System", 2
+"Which of the following is a feature of Java's exception handling mechanism?", "Try-catch blocks", "Exception hierarchies", "Finally blocks", "All of the above", 3
+"Which of the following is used for database connectivity in Java?", "JDBC", "JMS", "JPA", "JAX-RS", 0
+"Which of the following methods is used to stop a thread in Java?", "exit()", "stop()", "terminate()", "close()", 1
+"What is the purpose of a `static` keyword in Java?", "To define class-level variables", "To define instance variables", "To create objects", "To create a new thread", 0
+"Which of the following is used to pass a remote method invocation call in RMI?", "Socket", "Server", "Stub", "Handler", 2
