@@ -2,6 +2,7 @@ package client;
 
 import server.service.IServices;
 
+import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.List;
@@ -28,8 +29,10 @@ public class Client {
 
         try {
             // Connect to RMI registry and lookup server
-            Registry registry = LocateRegistry.getRegistry("localhost", 2301);
-            IServices games = (IServices) registry.lookup("Games");
+//            System.setProperty("java.rmi.server.useCodebaseOnly", "false");
+
+//            LocateRegistry.getRegistry("localhost", 2301);
+            IServices games = (IServices) Naming.lookup("rmi://localhost:2301/Games");
 
 
             System.out.println("=========================================");
